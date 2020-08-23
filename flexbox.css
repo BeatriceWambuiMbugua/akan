@@ -56,3 +56,12 @@ body{
     background-color: #FCA311;
     font-size: 15px;
 }
+@media screen and (min-width: 480px){
+  body {
+    background-color: black;
+    color: white;
+}
+}
+.menu p{
+  font-size: 30px;
+}
