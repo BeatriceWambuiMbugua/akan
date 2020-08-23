@@ -19,3 +19,63 @@ body{
     -ms-border-radius: 100%;
     -o-border-radius:100%;
 }
+#name{
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #FCA311;
+    width: 250px;
+    margin: auto;
+    color: #FCA311;
+    margin-top: 18px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+#name:hover{
+    background-color: #FCA311;
+    color: black;
+}
+
+.row h1{
+    text-align: center;
+    padding: 1px 40px 12px 20px;
+    border: 1px solid #FCA311;
+    color: #ffffff;
+    background-color: #14213D;
+    width: 30px;
+    margin: auto;
+    border-radius: 100%;
+    -webkit-border-radius: 400px;
+    -moz-border-radius: 400px; 
+    -ms-border-radius: 400px;
+    -o-border-radius: 400px; 
+}
+.card {
+    padding: 20px;
+}
+.input-section{
+    background-color: #e5e5e5;
+    height: 60vh;
+    margin-top: 20px;
+    padding-top: 100px;
+}
+.input-section > .card{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+.input-section > .card > .card-title{
+    margin-top: 30px;
+}
+.input-section label{
+    font-size: 18px;
+}
+footer {
+    margin-top: 400px;
+    text-align: center;
+    height: 10vh;
+    color: #ffffff;
+}
