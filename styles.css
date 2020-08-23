@@ -76,6 +76,9 @@ body{
 footer {
     margin-top: 400px;
     text-align: center;
-    height: 10vh;
-    color: #ffffff;
+    height: 20vh;
+    color: #000000;
+    padding-top: 70px;
+    background-color: #FCA311;
+    font-size: 15px;
 }
