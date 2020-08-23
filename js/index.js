@@ -61,3 +61,12 @@ function getGender() {
         }
     }
 }
+
+function calculateDay() {
+    var year = parseInt (getYear());
+    var MM = parseInt(getMonth());
+    var DD = parseInt(getDate());
+    var date = new Date (year + "/" + MM + "/" + DD);
+    var d = date.getDate();
+    return d;
+}
