@@ -1,0 +1,18 @@
+.menu-container {
+    color: #fff;
+    background-color: #14213D;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu {
+    border: 2px solid #fff;  
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px ;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-flex;
+  }
