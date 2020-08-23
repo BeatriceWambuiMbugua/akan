@@ -70,3 +70,20 @@ function calculateDay() {
     var d = date.getDate();
     return d;
 }
+
+function getAkanName() {
+    var gender = getGender();
+    var d = calculateDay();
+    var akanName = "";
+    if (gender === "male") {
+        akanName = maleAkanName[d];
+    } else {
+        akanName = femaleAkanName[d];
+    }
+    return akanName
+}
+function clearForm() {
+    document.getElementById("myform").reset();
+}
+
+   
