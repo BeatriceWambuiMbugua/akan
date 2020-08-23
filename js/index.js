@@ -1,13 +1,3 @@
-var femaleAkanName = [
-    "Akosua",
-    "Adwoa",
-    "Abenaa",
-    "Akua",
-    "Yaa",
-    "Afua",
-    "Ama"
-];
-
 var maleAkanName = [
     "Kwasi",
     "Kwadwo",
@@ -16,6 +6,16 @@ var maleAkanName = [
     "Yaw",
     "Kofi",
     "Kwame"
+];
+
+var femaleAkanName = [
+    "Akosua",
+    "Adwoa",
+    "Abenaa",
+    "Akua",
+    "Yaa",
+    "Afua",
+    "Ama"
 ];
 
 var daysOfTheWeek = [
@@ -56,18 +56,18 @@ function getDate() {
 function getGender() {
     var gender = document.getElementsByName("gender");
     for (i = 0; i < gender.length; i++) {
-        if (gender[i].checked){
+        if (gender[i].checked) {
             return gender[i].value;
         }
     }
 }
 
 function calculateDay() {
-    var year = parseInt (getYear());
+    var year = parseInt(getYear());
     var MM = parseInt(getMonth());
     var DD = parseInt(getDate());
     var date = new Date (year + "/" + MM + "/" + DD);
-    var d = date.getDate();
+    var d = date.getDay();
     return d;
 }
 

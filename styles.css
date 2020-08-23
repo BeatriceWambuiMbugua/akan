@@ -19,7 +19,7 @@ body{
     -ms-border-radius: 100%;
     -o-border-radius:100%;
 }
-#name{
+#start{
     text-align: center;
     padding: 12px;
     border: 1px solid #FCA311;
@@ -34,7 +34,7 @@ body{
     -o-border-radius: 18px;
 }
 
-#name:hover{
+#start:hover{
     background-color: #FCA311;
     color: black;
 }
@@ -81,4 +81,15 @@ footer {
     padding-top: 70px;
     background-color: #FCA311;
     font-size: 15px;
+}
+.input-section h1{
+    text-align: center;
+}
+.row p{ 
+    font-size: 15px;
+}
+@media screen and (max-width:700px){
+    .input-section > .card {
+        width: 80%;
+    }
 }
